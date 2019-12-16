@@ -1,0 +1,73 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .8em;
+background: lightsteelblue;
+color: rgb(12, 29, 44);
+}
+
+.topimg{
+    height: 40vw;
+    width: inherit;
+    background-image: url(d2.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+p{
+    margin-top: 1em;
+}
+img{
+    width: inherit;
+    border: .3em solid darkgrey;
+}
+h1,h5{
+    text-align: center;
+    color: peru;
+}
+
+
+.container{
+    margin-top: 4em;
+}
+
+td,th{padding: .5em;
+    border: solid 0.08em black ;
+    text-align: center;
+}
+th{
+    background: cadetblue;
+}
+
+.row{
+    margin-bottom: 2em;
+}
+table{
+    background: rgb(185, 218, 218);
+    margin: 0 auto;
+}
+
+ul{
+    margin-bottom: 1em;
+}
+a{
+    color: chocolate;
+}
+button{
+    border-radius: 50px;
+    background-color: midnightblue;
+    color: goldenrod;
+}
+section{
+    min-width: 13em;
+}
+
+@media print {
+    
+    .topimg{
+        height: 0;}
+
+    img{
+        display: none;
+    }
+
+ }
